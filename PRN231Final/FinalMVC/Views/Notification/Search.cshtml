@@ -1,0 +1,338 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@using FinalAPI.Models
+@model Notification
+@{
+	Layout = "_Layout";
+	var notification = ViewBag.GetNotification as List<Notification>;
+	String from = ViewBag.From;
+	String to = ViewBag.To;
+}
+<style>
+	.Content {
+		width: 1490px;
+		margin-left: 0px;
+		margin-top: -25px;
+	}
+
+	.Huy {
+		margin-left: 130px;
+	}
+
+	body {
+		background-color: #fcfcfc;
+	}
+
+	.row {
+		margin: auto;
+		padding: 30px;
+		width: 80%;
+		display: flex;
+		flex-flow: column;
+		.card
+
+	{
+		width: 100%;
+		margin-bottom: 5px;
+		display: block;
+		transition: opacity 0.3s;
+	}
+
+	}
+
+
+	.card-body {
+		padding: 0.5rem;
+		table
+
+	{
+		width: 100%;
+		tr
+
+	{
+		display: flex;
+		td
+
+	{
+		a .btn
+
+	{
+		font-size: 0.8rem;
+		padding: 3px;
+	}
+
+	}
+
+	td:nth-child(2) {
+		text-align: right;
+		justify-content: space-around;
+	}
+
+	}
+	}
+	}
+
+	.card-title:before {
+		display: inline-block;
+		font-family: 'Font Awesome\ 5 Free';
+		font-weight: 900;
+		font-size: 1.1rem;
+		text-align: center;
+		border: 2px solid grey;
+		border-radius: 100px;
+		width: 30px;
+		height: 30px;
+		padding-bottom: 3px;
+		margin-right: 10px;
+	}
+
+	.notification-invitation {
+		.card-body
+
+	{
+		.card-title:before
+
+	{
+		color: #90CAF9;
+		border-color: #90CAF9;
+		content: "\f007";
+	}
+
+	}
+	}
+
+	.notification-warning {
+		.card-body
+
+	{
+		.card-title:before
+
+	{
+		color: #FFE082;
+		border-color: #FFE082;
+		content: "\f071";
+	}
+
+	}
+	}
+
+	.notification-danger {
+		.card-body
+
+	{
+		.card-title:before
+
+	{
+		color: #FFAB91;
+		border-color: #FFAB91;
+		content: "\f00d";
+	}
+
+	}
+	}
+
+	.notification-reminder {
+		.card-body
+
+	{
+		.card-title:before
+
+	{
+		color: #CE93D8;
+		border-color: #CE93D8;
+		content: "\f017";
+	}
+
+	}
+	}
+
+	.card.display-none {
+		display: none;
+		transition: opacity 2s;
+	}
+
+	.noti {
+		margin-left: 230px;
+	}
+</style>
+<body>
+	<div class="Content">
+		<div class="home">
+			<div class="background_image" style="background-image:url(/images/contact.jpg)"></div>
+			<div class="home_container">
+				<div class="container Huy">
+					<div class="row">
+						<div class="col">
+							<div class="home_content text-center">
+								<div class="home_title">Notification</div>
+								<div class="booking_form_container">
+									<form asp-action="Search" asp-controller="Notification" class="booking_form" id="booking_form">
+										<div class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
+											<div class="booking_input_container d-flex flex-row align-items-start justify-content-start flex-wrap">
+												<div style="width:230px; margin-right:20px;"><input id="from" name="From" value="@from" type="date" class="booking_input booking_input_a booking_in" placeholder="From" required="required"></div>
+												<div style="width:230px;"><input type="date" id="to" name="To" value="@to" class="booking_input booking_input_a booking_out" placeholder="to" required="required"></div>
+											</div>
+											<div><button onclick="Checkdate()" type="submit" class="booking_button trans_200">Search</button></div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Contact -->
+		<div class="row notification-container">
+			<h2 class="text-center">My Notifications</h2>
+			<div class="card notification-card notification-invitation">
+				<div class="card-body">
+					<table style="width:1400px;" class="table table-bordered">
+						<thead>
+							<tr>
+								<td style="width:20%"><b>Title</b></td>
+								<td style="width:60%"><b>Content</b></td>
+								<td style="width:10%"><b>Date</b></td>
+								<td style="width:5%"><b>Delete</b></td>
+								<td style="width:5%"><b>Response</b></td>
+							</tr>
+						</thead>
+						<tbody>
+							@foreach (Notification noti in notification)
+							{
+								<tr>
+									<td style="width:20%"><b>@noti.Title</b></td>
+									<td style="width:60%">@noti.Message</td>
+									<td style="width:10%"><b>@noti.Date</b></td>
+									<td style="width:5%">
+										<a href="#" class="btn btn-danger dismiss-notification" onclick="DeleteNoti(@noti.NotificationId)">Dismiss</a>
+									</td>
+									<td style="width:5%">
+										<a href="Contact/Index" class="btn btn-danger">Contact</a>
+									</td>
+								</tr>
+							}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- Footer -->
+
+		<footer class="footer">
+			<div class="footer_content">
+				<div class="container Huy">
+					<div class="row">
+						<div class="col">
+							<div class="footer_logo_container text-center">
+								<div class="footer_logo">
+									<a href="#"></a>
+									<div>The River</div>
+									<div>since 1945</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row footer_row">
+
+						<!-- Address -->
+						<div class="col-lg-3">
+							<div class="footer_title">Our Address</div>
+							<div class="footer_list">
+								<ul>
+									<li>Beach Str. 345</li>
+									<li>67559 Miami</li>
+									<li>USA</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Reservations -->
+						<div class="col-lg-3">
+							<div class="footer_title">Reservations</div>
+							<div class="footer_list">
+								<ul>
+									<li>Tel: 345 5667 889</li>
+									<li>Fax; 6783 4567 889</li>
+									<li>reservations@hotelriver.com</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Newsletter -->
+						<div class="col-lg-3">
+							<div class="footer_title">Newsletter</div>
+							<div class="newsletter_container">
+								<form action="#" class="newsletter_form" id="newsletter_form">
+									<input type="email" class="newsletter_input" placeholder="Your email address" required="required">
+									<button class="newsletter_button">Subscribe</button>
+								</form>
+							</div>
+						</div>
+
+						<!-- Footer images -->
+						<div class="col-lg-3">
+							<div class="certificates d-flex flex-row align-items-start justify-content-lg-between justify-content-start flex-lg-nowrap flex-wrap">
+								<div class="cert"><img src="images/cert_1.png" alt=""></div>
+								<div class="cert"><img src="images/cert_2.png" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			</div>
+		</footer>
+	</div>
+	<script>
+		function DeleteNoti(value) {
+			//$("table tbody").html("");
+			//         $.ajax({
+			//             url: "http://localhost:5285/api/Notification",
+			//             type: "get",
+			//             contentType: "application/json",
+			//             dataType: "json",
+			//             success: function (result, status, xhr) {
+			//                 console.log(result);
+			//                 $.each(result, function (index, value) {
+			//			var body = "<tr><td style=\"width:20%\"><b>"+value["title"]+"</b></td>"+
+			//				"<td style=\"width:20%\"><b>" + value["message"] + "</b></td>" +
+			//				"<td style=\"width:20%\"><b>" + value["date"] + "</b></td>" +
+			//				"<td style=\"width:5%\">"+
+			//				"< a class=\"btn btn-danger dismiss-notification\" onclick = \"DeleteNoti(" + value["notificationId"] + ")\" > Dismiss < /a>< /td>" +
+			//				"<td style=\"width: 5% \">"+
+			//				"< a href = \"Contact/Index\" class=\"btn btn-danger\" > Contact < /a>< /td></tr>"+
+			//                     $("tbody").append($(body));
+			//                 });
+			//             }
+			//         });
+			$.ajax({
+				url: "http://localhost:5285/api/Notification?id=" + value,
+				type: "delete",
+				contentType: "application/json",
+
+				success: function (result, status, xhr) {
+					alert('Delete Success');
+					window.location.reload();
+				},
+				error: function (result, status, xhr) {
+					alert('Delete Failed');
+				}
+
+			});
+		}
+		function Checkdate() {
+			var from = document.getElementById("from").value;
+			var to = document.getElementById("to").value;
+			let date1 = new Date(from);
+			let date2 = new Date(to);
+
+			if (date1 > date2) {
+				alert("Date from must before date to! Thankyou");
+			}
+		}
+	</script>
+</body>

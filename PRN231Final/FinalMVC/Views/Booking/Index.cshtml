@@ -1,0 +1,325 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@using FinalAPI.Models
+@model Booking
+@{
+	Layout = "_Layout";
+	var comment = ViewBag.GetComment as List<Comment>;
+	var room = ViewBag.GetRoom as RoomDetail;
+	var NumberComment = (int)ViewBag.NumberComment;
+	var customerId = (int)ViewBag.CustomerID;
+}
+<style>
+	.Content {
+		width: 1490px;
+		margin-left: 0px;
+		margin-top: -25px;
+	}
+
+	.Huy {
+		margin-left: 100px;
+	}
+</style>
+<head>
+	<link href="~/css/comment.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="Content">
+
+		<!-- Header -->
+		<!-- Home -->
+
+		<div class="home">
+			<div class="background_image" style="background-image:url(/images/booking.jpg)"></div>
+			<div class="home_container">
+				<div class="container Huy">
+					<div class="row">
+						<div class="col">
+							<div class="home_content text-center">
+								<div class="home_title">Booking</div>
+								<div class="booking_form_container">
+									<div class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<form asp-action="Booking" asp-route-id="@room.RoomId" asp-controller="Booking" class="booking_form" id="booking_form">
+											<div class="booking_input_container d-flex flex-row align-items-start justify-content-start flex-wrap">
+												<div><input id="checkin" name="checkIn" type="date" class="booking_input booking_input_a booking_in" placeholder="Check in" required="required"></div>
+												<div><input id="checkout" name="checkOut" type="date" class="booking_input booking_input_a booking_out" placeholder="Check out" required="required"></div>
+												<div><input type="text" class="booking_input booking_input_b" value="@room.Children Children" readonly></div>
+												<div><input type="text" class="booking_input booking_input_b" value="@room.Adult Adult" readonly></div>
+												<input type="hidden" id="roomId" value="@room.RoomId">
+												<input type="hidden" id="customerId" value="@customerId">
+												</div>
+											<div onclick="DMM()"><button type="submit" class="booking_button trans_200">BookNow</button></div>
+										</form>
+									</div>						
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Blog -->
+
+		<div class="blog">
+			<div class="container Huy">
+				<div class="row">
+
+					<!-- Blog Posts -->
+					<div class="col-lg-9">
+						<div class="blog_posts">
+
+							<!-- Blog Post -->
+							<div class="blog_post">
+								<div class="blog_post_image">
+									<img src="~/images/blog_1.jpg" alt="">
+									<div class="blog_post_date"><a href="#">Price: @room.Room.Price $</a></div>
+								</div>
+								<div class="blog_post_content">
+                                    <div class="blog_post_title"><a href="#">@room.Room.Name</a></div>
+									<div class="blog_post_info">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li class="d-flex flex-row align-items-center justify-content-start">
+												<img src="~/images/icon_4.png" alt="">
+												<a>@room.Size M2</a>
+											</li>
+											<li class="d-flex flex-row align-items-center justify-content-start">
+												<img src="~/images/icon_5.png" alt="">
+												<a href="#" id="like">21 Likes</a>
+											</li>
+											<li class="d-flex flex-row align-items-center justify-content-start">
+												<img src="~/images/icon_6.png" alt="">
+												<a href="#">602 views</a>
+											</li>
+										</ul>
+									</div>
+									<div class="blog_post_text">
+										<p>@room.Introduce</p>
+									</div>
+
+									<!-- --------------COMMENT-----------  -->
+									<div class="container mt-5">
+										<div class="row  d-flex justify-content-center">
+											<div class="col-md-8">
+												<div class="headings d-flex justify-content-between align-items-center mb-3">
+													<h5>comments(@NumberComment)</h5>
+												</div>
+												@foreach (Comment com in comment)
+												{
+													<div class="card p-3">
+														<div class="d-flex justify-content-between align-items-center">
+															<div class="user d-flex flex-row align-items-center">
+
+																<img src="https://i.imgur.com/hczKIze.jpg" width="30" class="user-img rounded-circle mr-2">
+																<span><small class="font-weight-bold text-primary">@com.Account.Username</small> <small class="font-weight-bold">@com.CommentContent</small></span>
+															</div>
+															<small>@com.DateComment</small>
+														</div>
+														<div class="action d-flex justify-content-between mt-2 align-items-center">
+															<div class="reply px-4">
+																<small>Like</small>
+																<span class="dots"></span>
+																<small>DisLike</small>
+																<span class="dots"></span>
+																<small>Translate</small>
+															</div>
+															<div class="icons align-items-center">
+																@for(int i =1 ; i <= com.Start; i++)
+																{
+																	<i class="fa fa-star text-warning"></i>
+																}
+																@for(int i =5 ; i > com.Start; i--)
+																{
+																	<i class="fa fa-star-o text-muted"></i>
+																}																
+															</div>
+														</div>
+													</div>
+												}												
+											</div>
+										</div>
+									</div>
+
+									<!-- END COMMENT -->
+
+									<div class="button blog_post_button"><a href="#">Booking Now</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3">
+						<div class="sidebar">
+							<!-- Recent Posts -->
+							<div class="recent_posts">
+								<div class="sidebar_title"><h4>Device</h4></div>
+								<div class="sidebar_list">
+									<ul>
+										<li>26 m² Patio</li>
+										<li>Balcony with view</li>
+										<li>Garden / Mountain view</li>
+										<li>Flat-screen TV</li>
+										<li>Air conditioning</li>
+										<li>Soundproofing</li>
+										<li>Private bathroom</li>
+										<li>Free WiFi</li>
+									</ul>
+								</div>
+							</div>
+							<!-- Tags -->
+							<div class="tags">
+								<div class="sidebar_title"><h4>Service</h4></div>
+								<div class="tags_container">
+									<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+										<li>Balcony</li>
+										<li>Mountain view</li>
+										<li>Terrace</li>
+										<li>TV</li>
+										<li>Satellite Channels</li>
+										<li>Safety Deposit Box</li>
+										<li>Heating</li>
+										<li>Sofa</li>
+										<li>Tile/Marble floor</li>
+										<li>Mosquito net</li>
+										<li>Wardrobe/Closet</li>
+										<li>Sofa bed</li>
+										<li>Shower</li>
+										<li>Hairdryer</li>
+										<li>Free toiletries</li>
+										<li>Toilet</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+
+		<footer class="footer">
+			<div class="footer_content">
+				<div class="container Huy">
+					<div class="row">
+						<div class="col">
+							<div class="footer_logo_container text-center">
+								<div class="footer_logo">
+									<a href="#"></a>
+									<div>The River</div>
+									<div>since 1945</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row footer_row">
+
+						<!-- Address -->
+						<div class="col-lg-3">
+							<div class="footer_title">Our Address</div>
+							<div class="footer_list">
+								<ul>
+									<li>Beach Str. 345</li>
+									<li>67559 Miami</li>
+									<li>USA</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Reservations -->
+						<div class="col-lg-3">
+							<div class="footer_title">Reservations</div>
+							<div class="footer_list">
+								<ul>
+									<li>Tel: 345 5667 889</li>
+									<li>Fax; 6783 4567 889</li>
+									<li>reservations@hotelriver.com</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Newsletter -->
+						<div class="col-lg-3">
+							<div class="footer_title">Newsletter</div>
+							<div class="newsletter_container">
+								<form action="#" class="newsletter_form" id="newsletter_form">
+									<input type="email" class="newsletter_input" placeholder="Your email address" required="required">
+									<button class="newsletter_button">Subscribe</button>
+								</form>
+							</div>
+						</div>
+
+						<!-- Footer images -->
+						<div class="col-lg-3">
+							<div class="certificates d-flex flex-row align-items-start justify-content-lg-between justify-content-start flex-lg-nowrap flex-wrap">
+								<div class="cert"><img src="~/images/cert_1.png" alt=""></div>
+								<div class="cert"><img src="~/images/cert_2.png" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			</div>
+		</footer>
+	</div>
+	<script>
+		function DMM() {
+			var checkIn = document.getElementById("checkin").value;
+			var checkOut = document.getElementById("checkout").value;
+			var roomId = document.getElementById("roomId").value;
+			var customerId = document.getElementById("customerId").value;
+			var isComment = 0;
+			const date = new Date();
+			
+			const todayDate=date.toLocaleDateString();
+
+			let date1 = new Date(checkIn);
+			let date2 = new Date(checkOut);
+
+			//alert(date1);
+			//alert(date2);
+			//alert(now.getMonth())
+			//alert(now.getDate());
+			//alert(date1.getdate());
+			//alert(date1.getmonth());
+
+			if(date1>date2){
+				alert("Check in date must before check out date! Thankyou");
+				return;
+			}
+			if (date>date1) {
+				alert("Check in date must after today! Thankyou");
+				return;
+			}
+
+			var requestData = {
+				customerId: customerId,
+				roomId: roomId,
+				checkIn: checkIn,
+				isComment: isComment,
+				checkOut: checkOut
+			};
+			console.log(requestData);
+
+			$.ajax({
+				url: "http://localhost:5285/api/Booking",
+				type: "post",
+				contentType: "application/json",
+				data: JSON.stringify(requestData),
+				success: function (result, status, xhr) {
+					alert('Booking Success');
+					//AddNotiContact();
+				},
+				error: function (result, status, xhr) {
+					alert('Booking Failed');
+				}
+			});
+		}
+	</script>
+</body>

@@ -1,0 +1,44 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@using FinalAPI.Models
+@model Account
+@{
+    Layout = "_Layout1";
+}
+<head>
+    <link href="~/css/login.css" rel="stylesheet" />
+</head>
+<div class="parent clearfix">
+    <div class="bg-illustration">
+        <img src="https://i.ibb.co/Pcg0Pk1/logo.png" alt="logo">
+
+        <div class="burger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+
+    <div class="login">
+        <div class="container">
+            <h1>Login to access to<br />your account</h1>
+
+            <div class="login-form">
+                <form asp-action ="CheckAccount" asp-controller="Account">
+                    <input required type="text" asp-for="Username" placeholder="E-mail Address" value="">
+                    <input required type="password" asp-for="Password" placeholder="Password" value="">
+
+                    <div class="remember-form">
+                        <input type="checkbox">
+                        <span>Remember me</span>
+                    </div>
+                    <div class="forget-pass">
+                        <a asp-action="Create" asp-controller="Account">Create new account</a>
+                    </div>
+                    <button type="submit">LOG-IN</button>                 
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,351 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@using FinalAPI.Models
+@model Room
+@{
+	Layout = "_Layout";
+	var ListRoom = ViewBag.GetRoom as List<Room>;
+	var categories = ViewBag.GetCategory as List<Category>;
+	int CountNumberRoom = 1;
+}
+<style>
+	.Content {
+		width: 1490px;
+		margin-left: 0px;
+		margin-top:-25px;
+	}
+	.Huy{
+		margin-left:130px;
+	}
+</style>
+<body>
+	<div class="Content">
+
+	<!-- Header -->
+	<!-- Home -->
+
+	<div class="home">
+		<div class="background_image" style="background-image:url(images/booking.jpg)"></div>
+		<div class="home_container Huy">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content text-center">
+							<div class="home_title">Book a room</div>
+							<div class="booking_form_container">
+								<form asp-action="Search" asp-controller="Room" class="booking_form" id="booking_form">
+									<div class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="booking_input_container d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<div><input name="Name" value="" type="text" class="booking_input booking_input_a booking_in" placeholder="Name"></div>
+											<div>
+											<select name="Price" class="booking_input booking_input_a booking_in">
+												<option disabled selected hidden>Price</option>
+												<option value="0-100" style="color:black">0-100</option>
+												<option value="100-200" style="color:black">100-200</option>
+												<option value="200-350" style="color:black">200-350</option>
+												<option value="350-500" style="color:black">350-500</option>
+												<option value="500" style="color:black">>500</option>
+											</select>
+											</div>
+											@*<div><input name="Price" value="" type="number" class="booking_input booking_input_a booking_out" placeholder="Price" required="required"></div>*@
+											<div><input type="number" class="booking_input booking_input_b" placeholder="Children" name="Children" value=""></div>
+											<div><input type="number" class="booking_input booking_input_b" placeholder="Adult" name="Adult" value=""></div>
+										</div>
+										<div><button type="submit" class="booking_button trans_200">Search</button></div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Booking -->
+
+	<div class="booking">
+			<div class="container Huy">
+			<div class="row">
+				<div class="col">
+
+					<!-- Booking Slider -->
+					<div class="booking_slider_container">
+						<div class="owl-carousel owl-theme booking_slider">
+							@foreach(Category item in categories)
+								{
+									String image;
+									if (item.CategoryId > 3)
+									{
+										 image = "booking_" + (item.CategoryId-3) + ".jpg";
+									}
+									else
+									{
+										 image = "booking_" + item.CategoryId + ".jpg";
+									}
+									<div class="booking_item">
+										<div class="background_image" style="background-image:url(/images/booking_1.jpg)"></div>
+										<div class="booking_overlay trans_200"></div>
+										<div class="booking_item_content">
+											<div class="booking_item_list">
+												<ul>
+													<li>27 m² Patio</li>
+													<li>Balcony with view</li>
+													<li>Garden / Mountain view</li>
+													<li>Flat-screen TV</li>
+													<li>Air conditioning</li>
+													<li>Soundproofing</li>
+													<li>Private bathroom</li>
+													<li>Free WiFi</li>
+												</ul>
+											</div>
+										</div>
+										<div class="booking_price">$120/Night</div>
+										<div class="booking_link"><a href="~/Room/Index?Category=@item.CategoryId">@item.CategoryName</a></div>
+									</div>
+								}	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Details Right -->
+		@foreach (Room room in ListRoom)
+		{
+			if (CountNumberRoom %3==1)
+			{
+				<div class="details">
+					<div class="container Huy">
+						<div class="row">
+							<div class="col-xl-7 col-lg-6">
+								<div class="details_image">
+									<div class="background_image" style="background-image:url(/images/details_1.jpg)"></div>
+								</div>
+							</div>
+							<div class="col-xl-5 col-lg-6">
+								<div class="details_content">
+									<div class="details_title">@room.Name - @room.Price $</div>
+									<div class="details_list">
+										<ul>
+											<li>21 m² Patio</li>
+											<li>Balcony with view</li>
+											<li>Garden / Mountain view</li>
+											<li>Flat-screen TV</li>
+											<li>Air conditioning</li>
+											<li>Soundproofing</li>
+											<li>Private bathroom</li>
+											<li>Free WiFi</li>
+										</ul>
+									</div>
+									<div class="details_long_list">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li>Satellite Channels</li>
+											<li>Safety Deposit Box</li>
+											<li>Heating</li>
+											<li>Sofa</li>
+											<li>Tile/Marble floor</li>
+											<li>Bath or Shower</li>
+											<li>Toilet paper</li>
+											<li>Tea/Coffee Maker</li>
+											<li>Minibar</li>
+											<li>Dining area</li>
+											<li>Electric kettle</li>
+											<li>Dining table</li>
+											<li>Outdoor furniture</li>
+											<li>Outdoor dining area</li>
+											<li>Towels</li>
+											<li>Linen</li>
+											<li>Upper floors accessible by lift</li>
+										</ul>
+									</div>
+									<div class="book_now_button"><a href="~/Booking/Index?id=@room.RoomId">Book Now</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				CountNumberRoom++;
+			} else if (CountNumberRoom %3==2){
+				<div class="details">
+						<div class="container Huy">
+							<div class="row">
+								<!-- Details Content -->
+								<div class="col-xl-5 col-lg-6 order-lg-1 order-2">
+									<div class="details_content">
+									<div class="details_title">@room.Name - @room.Price $</div>
+										<div class="details_list">
+											<ul>
+												<li>32 m² Patio</li>
+												<li>Balcony with view</li>
+												<li>Garden / Mountain view</li>
+												<li>Flat-screen TV</li>
+												<li>Air conditioning</li>
+												<li>Soundproofing</li>
+												<li>Private bathroom</li>
+												<li>Free WiFi</li>
+											</ul>
+										</div>
+										<div class="details_long_list">
+											<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+												<li>Balcony</li>
+												<li>Mountain view</li>
+												<li>Terrace</li>
+												<li>TV</li>
+												<li>Satellite Channels</li>
+												<li>Safety Deposit Box</li>
+												<li>Heating</li>
+												<li>Sofa</li>
+												<li>Tile/Marble floor</li>
+												<li>Mosquito net</li>
+												<li>Wardrobe/Closet</li>
+												<li>Sofa bed</li>
+												<li>Shower</li>
+												<li>Hairdryer</li>
+												<li>Free toiletries</li>
+												<li>Toilet</li>
+												<li>Bath or Shower</li>
+
+											</ul>
+										</div>
+									<div class="book_now_button"><a href="~/Booking/Index?id=@room.RoomId">Book Now</a></div>
+									</div>
+								</div>
+
+								<!-- Details Image -->
+								<div class="col-xl-7 col-lg-6 order-lg-2 order-1">
+									<div class="details_image">
+										<div class="background_image" style="background-image:url(/images/details_2.jpg)"></div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				CountNumberRoom++;
+			}
+			else
+			{
+					<div class="special">
+						<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="/images/special.jpg" data-speed="0.8"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-xl-6 offset-xl-6 col-lg-8 offset-lg-2">
+									<div class="special_content">
+									<div class="details_title">@room.Name - @room.Price $</div>
+										<div class="details_list">
+											<ul>
+												<li>26 m² Patio</li>
+												<li>Balcony with view</li>
+												<li>Garden / Mountain view</li>
+												<li>Flat-screen TV</li>
+												<li>Air conditioning</li>
+												<li>Soundproofing</li>
+												<li>Private bathroom</li>
+												<li>Free WiFi</li>
+											</ul>
+										</div>
+										<div class="details_long_list">
+											<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+												<li>Balcony</li>
+												<li>Mountain view</li>
+												<li>Terrace</li>
+												<li>TV</li>
+												<li>Satellite Channels</li>
+												<li>Safety Deposit Box</li>
+												<li>Heating</li>
+												<li>Sofa</li>
+												<li>Tile/Marble floor</li>
+												<li>Mosquito net</li>
+												<li>Wardrobe/Closet</li>
+												<li>Sofa bed</li>
+												<li>Shower</li>
+												<li>Hairdryer</li>
+												<li>Free toiletries</li>
+												<li>Toilet</li>
+											</ul>
+										</div>
+										<div class="book_now_button"><a href="~/Booking/Index?id=@room.RoomId">Book Now</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				CountNumberRoom++;
+			}
+		}										
+		
+	</div>
+	
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="footer_content">
+			<div class="container Huy">
+				<div class="row">
+					<div class="col">
+						<div class="footer_logo_container text-center">
+							<div class="footer_logo">
+								<a href="#"></a>
+								<div>The River</div>
+								<div>since 1945</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row footer_row">
+
+					<!-- Address -->
+					<div class="col-lg-3">
+						<div class="footer_title">Our Address</div>
+						<div class="footer_list">
+							<ul>
+								<li>Beach Str. 345</li>
+								<li>67559 Miami</li>
+								<li>USA</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Reservations -->
+					<div class="col-lg-3">
+						<div class="footer_title">Reservations</div>
+						<div class="footer_list">
+							<ul>
+								<li>Tel: 345 5667 889</li>
+								<li>Fax; 6783 4567 889</li>
+								<li>reservations@hotelriver.com</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Newsletter -->
+					<div class="col-lg-3">
+						<div class="footer_title">Newsletter</div>
+						<div class="newsletter_container">
+							<form action="#" class="newsletter_form" id="newsletter_form">
+								<input type="email" class="newsletter_input" placeholder="Your email address" required="required">
+								<button class="newsletter_button">Subscribe</button>
+							</form>
+						</div>
+					</div>
+
+					<!-- Footer images -->
+					<div class="col-lg-3">
+						<div class="certificates d-flex flex-row align-items-start justify-content-lg-between justify-content-start flex-lg-nowrap flex-wrap">
+							<div class="cert"><img src="~/images/cert_1.png" alt=""></div>
+							<div class="cert"><img src="~/images/cert_2.png" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</div>
+	</footer>
+</div>
+</body>

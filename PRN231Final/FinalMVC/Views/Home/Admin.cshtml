@@ -1,0 +1,136 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+<body>
+    <div>
+        <h2 style="margin-top: -50px">Booking Management</h2>
+    </div>
+    <div class="table-wrapper">
+        <table id="TableContact" class="table table-striped table-hover table-bordered" style="Margin-left:10px">
+            <thead>
+                <tr class="title">
+                    <th>OrderID</th>
+                    <th>CustomerID</th>
+                    <th>RoomID</th>
+                    <th>CheckIn</th>
+                    <th>CheckOut</th>
+                    <th>Status</th>
+                    <th>Contact</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div id="Contact" style="height: 600px; width: 30%; background-color: burlywood;display: inline-block; position: fixed;top:120px;right:0px">
+            <h2 style="margin-left: 130px">Contact</h2>
+            <form>
+                <input id="title" style="height:70px; width: 400px; background-color: white;margin-top:10px;" required placeholder="Title" type="text" name="title" value="" />
+                <br />
+                <textarea id="message" style="height: 220px; width: 400px; background-color: white; margin-top: 40px;" required placeholder="Message" type="text" name="message" value=""></textarea>
+                <button onclick="Sent()" style="font-size:20px; border-radius: 5px; background-color:wheat;margin-left: 150px;margin-top:30px;" type="submit">SentContact</button>
+                <button onclick="EnableContact()" style="font-size:20px; border-radius: 5px; background-color:wheat;margin-left: 180px;margin-top:30px;" type="button">Close</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        ShowAllBooking();
+        document.getElementById("Contact").style.display = "none";
+        var accountID;
+
+        function Show(value) {
+            accountID=value;
+            document.getElementById("TableContact").style.width = "70%";
+            document.getElementById("Contact").style.display = "block";
+        }
+
+        function EnableContact() {
+            document.getElementById("TableContact").style.width = "100%";
+            document.getElementById("Contact").style.display = "none";
+        }
+
+        function AddNotiBooking(accountId, message) {
+            var title="Thư phản hồi của booking";
+            var currentdate = new Date().toLocaleDateString();
+            var isNew=1;
+            var requestData = {
+                accountId: accountId,
+                sentByAccountId: 5,
+                title: title,
+                message: message,
+                date: currentdate,
+                isNew: isNew
+            };
+            console.log(requestData);
+            $.ajax({
+                url: "http://localhost:5285/api/Notification",
+                type: "post",
+                contentType: "application/json",
+                data: JSON.stringify(requestData),
+                success: function (result, status, xhr) {
+                    alert('Add Noti Success');
+                },
+                error: function (result, status, xhr) {
+                    alert('Add Failed');
+                }
+            });
+        }
+
+        function Sent() {
+            var title = document.getElementById("title").value;
+            var message = document.getElementById("message").value;
+            var currentdate = new Date().toLocaleDateString();
+            var isAdmin = 1;
+            var accountId = accountID;
+            var requestData = {
+                title: title,
+                message: message,
+                date: currentdate,
+                isAdmin: isAdmin,
+                accountId: accountId
+            };
+            $.ajax({
+                url: "http://localhost:5285/api/Contact",
+                type: "post",
+                contentType: "application/json",
+                data: JSON.stringify(requestData),
+                success: function (result, status, xhr) {
+                    alert('Add Success');
+                    AddNotiBooking(accountID, message);
+                },
+                error: function (result, status, xhr) {                   
+                    alert('Add Failed');
+                }
+            });           
+        }       
+        function ShowAllBooking() {
+            $("table tbody").html("");
+            $.ajax({
+                url: "http://localhost:5285/api/Booking",
+                type: "get",
+                contentType: "application/json",
+                dataType: "json",
+                success: function (result, status, xhr) {
+                    console.log(result);
+                    $.each(result, function (index, value) {
+                        var body = "<tr>" +
+                            "<td> " + value["orderId"] + " </td>" +
+                            "<td>" + value["customerId"] + " </td>" +
+                            "<td> " + value["roomId"] + " </td>" +
+                            "<td> " + value["checkIn"] + " </td>" +
+                            "<td> " + value["checkOut"] + " </td>";
+                        if (value["isComment" == 1]){
+                            body += "<td>Commented</td>";
+                        } else {
+                            body += "<td>Notyet Comment</td>";
+                        }
+                        body += "<td><button type=\"submit\" onclick=\"Show(" + value["customerId"] + ")\">Contact</button></td></tr>";
+                        $("tbody").append($(body));
+                    });
+                }
+            });
+        }
+        
+    </script>
+</body>
+
+

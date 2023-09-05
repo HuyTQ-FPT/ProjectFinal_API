@@ -1,0 +1,865 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FinalMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FinalMVC.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\css\\Chat.css",
+      "PackagePath": "staticwebassets\\css\\Chat.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\css\\Comment.css",
+      "PackagePath": "staticwebassets\\css\\Comment.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\css\\style_3.css",
+      "PackagePath": "staticwebassets\\css\\style_3.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\about.jpg",
+      "PackagePath": "staticwebassets\\images\\about.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\about_1.png",
+      "PackagePath": "staticwebassets\\images\\about_1.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\about_2.png",
+      "PackagePath": "staticwebassets\\images\\about_2.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\about_3.png",
+      "PackagePath": "staticwebassets\\images\\about_3.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\blog.jpg",
+      "PackagePath": "staticwebassets\\images\\blog.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\blog_1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog_1.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\blog_2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog_2.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\blog_3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog_3.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\booking.jpg",
+      "PackagePath": "staticwebassets\\images\\booking.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\booking_1.jpg",
+      "PackagePath": "staticwebassets\\images\\booking_1.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\booking_2.jpg",
+      "PackagePath": "staticwebassets\\images\\booking_2.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\booking_3.jpg",
+      "PackagePath": "staticwebassets\\images\\booking_3.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\cert_1.png",
+      "PackagePath": "staticwebassets\\images\\cert_1.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\cert_2.png",
+      "PackagePath": "staticwebassets\\images\\cert_2.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\chat.jpg",
+      "PackagePath": "staticwebassets\\images\\chat.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\contact.jpg",
+      "PackagePath": "staticwebassets\\images\\contact.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\details_1.jpg",
+      "PackagePath": "staticwebassets\\images\\details_1.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\details_2.jpg",
+      "PackagePath": "staticwebassets\\images\\details_2.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\gallery_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_1.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\gallery_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_2.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\gallery_3.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_3.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\gallery_4.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_4.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\icon_1.svg",
+      "PackagePath": "staticwebassets\\images\\icon_1.svg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\icon_2.svg",
+      "PackagePath": "staticwebassets\\images\\icon_2.svg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\icon_3.svg",
+      "PackagePath": "staticwebassets\\images\\icon_3.svg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\icon_4.png",
+      "PackagePath": "staticwebassets\\images\\icon_4.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\icon_5.png",
+      "PackagePath": "staticwebassets\\images\\icon_5.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\icon_6.png",
+      "PackagePath": "staticwebassets\\images\\icon_6.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\icon_7.png",
+      "PackagePath": "staticwebassets\\images\\icon_7.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\icon_8.png",
+      "PackagePath": "staticwebassets\\images\\icon_8.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\index.jpg",
+      "PackagePath": "staticwebassets\\images\\index.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\index_1.jpg",
+      "PackagePath": "staticwebassets\\images\\index_1.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\index_blog_1.jpg",
+      "PackagePath": "staticwebassets\\images\\index_blog_1.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\index_blog_2.jpg",
+      "PackagePath": "staticwebassets\\images\\index_blog_2.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\index_blog_3.jpg",
+      "PackagePath": "staticwebassets\\images\\index_blog_3.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\loader1.gif",
+      "PackagePath": "staticwebassets\\images\\loader1.gif"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\loaders.jpg",
+      "PackagePath": "staticwebassets\\images\\loaders.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\milestones.jpg",
+      "PackagePath": "staticwebassets\\images\\milestones.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\phone-2.png",
+      "PackagePath": "staticwebassets\\images\\phone-2.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\phone.png",
+      "PackagePath": "staticwebassets\\images\\phone.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\sig.png",
+      "PackagePath": "staticwebassets\\images\\sig.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\special.jpg",
+      "PackagePath": "staticwebassets\\images\\special.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\special_offer.jpg",
+      "PackagePath": "staticwebassets\\images\\special_offer.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\testimonials.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonials.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\user_1.jpg",
+      "PackagePath": "staticwebassets\\images\\user_1.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\user_2.jpg",
+      "PackagePath": "staticwebassets\\images\\user_2.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\images\\user_3.jpg",
+      "PackagePath": "staticwebassets\\images\\user_3.jpg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\js\\about.js",
+      "PackagePath": "staticwebassets\\js\\about.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\js\\blog.js",
+      "PackagePath": "staticwebassets\\js\\blog.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\js\\booking.js",
+      "PackagePath": "staticwebassets\\js\\booking.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\js\\elements.js",
+      "PackagePath": "staticwebassets\\js\\elements.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\ajax-loader.gif"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\animate.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\animate.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\owl.carousel.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\owl.carousel.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\owl.theme.default.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\OwlCarousel2-2.3.4\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\plugins\\OwlCarousel2-2.3.4\\owl.video.play.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\colorbox\\colorbox.css",
+      "PackagePath": "staticwebassets\\plugins\\colorbox\\colorbox.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\colorbox\\images\\border.png",
+      "PackagePath": "staticwebassets\\plugins\\colorbox\\images\\border.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\colorbox\\images\\controls.png",
+      "PackagePath": "staticwebassets\\plugins\\colorbox\\images\\controls.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\colorbox\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\plugins\\colorbox\\images\\loading.gif"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\colorbox\\images\\loading_background.png",
+      "PackagePath": "staticwebassets\\plugins\\colorbox\\images\\loading_background.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\colorbox\\images\\overlay.png",
+      "PackagePath": "staticwebassets\\plugins\\colorbox\\images\\overlay.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\colorbox\\jquery.colorbox-min.js",
+      "PackagePath": "staticwebassets\\plugins\\colorbox\\jquery.colorbox-min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\plugins\\easing\\easing.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\plugins\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\greensock\\ScrollToPlugin.min.js",
+      "PackagePath": "staticwebassets\\plugins\\greensock\\ScrollToPlugin.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\greensock\\TimelineMax.min.js",
+      "PackagePath": "staticwebassets\\plugins\\greensock\\TimelineMax.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\greensock\\TweenMax.min.js",
+      "PackagePath": "staticwebassets\\plugins\\greensock\\TweenMax.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\greensock\\animation.gsap.min.js",
+      "PackagePath": "staticwebassets\\plugins\\greensock\\animation.gsap.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\AUTHORS.txt",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\AUTHORS.txt"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\external\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\external\\jquery\\jquery.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\index.html",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\index.html"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\jquery-ui.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\jquery-ui.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\jquery-ui.min.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\jquery-ui.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\jquery-ui.structure.css",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\jquery-ui.structure.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\jquery-ui.structure.min.css",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\jquery-ui.structure.min.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\jquery-ui.theme.css",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\jquery-ui.theme.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\jquery-ui.theme.min.css",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\jquery-ui.theme.min.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\jquery-datepicker\\package.json",
+      "PackagePath": "staticwebassets\\plugins\\jquery-datepicker\\package.json"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\parallax-js-master\\parallax.min.js",
+      "PackagePath": "staticwebassets\\plugins\\parallax-js-master\\parallax.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\progressbar\\progressbar.min.js",
+      "PackagePath": "staticwebassets\\plugins\\progressbar\\progressbar.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\plugins\\scrollmagic\\ScrollMagic.min.js",
+      "PackagePath": "staticwebassets\\plugins\\scrollmagic\\ScrollMagic.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\styles\\about.css",
+      "PackagePath": "staticwebassets\\styles\\about.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\styles\\about_responsive.css",
+      "PackagePath": "staticwebassets\\styles\\about_responsive.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\styles\\blog.css",
+      "PackagePath": "staticwebassets\\styles\\blog.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\styles\\blog_responsive.css",
+      "PackagePath": "staticwebassets\\styles\\blog_responsive.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\styles\\booking.css",
+      "PackagePath": "staticwebassets\\styles\\booking.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\styles\\booking_responsive.css",
+      "PackagePath": "staticwebassets\\styles\\booking_responsive.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\styles\\bootstrap-4.1.2\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\styles\\bootstrap-4.1.2\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\styles\\bootstrap-4.1.2\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\styles\\bootstrap-4.1.2\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\styles\\bootstrap-4.1.2\\popper.js",
+      "PackagePath": "staticwebassets\\styles\\bootstrap-4.1.2\\popper.js"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\styles\\contact.css",
+      "PackagePath": "staticwebassets\\styles\\contact.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\styles\\contact_responsive.css",
+      "PackagePath": "staticwebassets\\styles\\contact_responsive.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\styles\\elements.css",
+      "PackagePath": "staticwebassets\\styles\\elements.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\styles\\elements_responsive.css",
+      "PackagePath": "staticwebassets\\styles\\elements_responsive.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\styles\\main_styles.css",
+      "PackagePath": "staticwebassets\\styles\\main_styles.css"
+    },
+    {
+      "Id": "E:\\Semester-8-FPT\\PRN231\\Code\\PRN231Final\\FinalMVC\\wwwroot\\styles\\responsive.css",
+      "PackagePath": "staticwebassets\\styles\\responsive.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FinalMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FinalMVC.props",
+      "PackagePath": "build\\FinalMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FinalMVC.props",
+      "PackagePath": "buildMultiTargeting\\FinalMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FinalMVC.props",
+      "PackagePath": "buildTransitive\\FinalMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
